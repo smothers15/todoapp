@@ -72,7 +72,7 @@ router.get('/edit/:id', async function(req, res) {
     }
   });
   const item = results[0];
-  console.log(results);
+  //console.log(results);
   res.render('edit_todo', {item})
 });
 
